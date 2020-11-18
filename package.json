@@ -1,0 +1,29 @@
+{
+  "name": "babylonjs-typescript-nullengine-example",
+  "version": "1.0.0",
+  "description": "Testing",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "dependencies": {
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0",
+    "tslib": "^2.0.3",
+    "typescript": "^3.9.6",
+    "@babylonjs/core": "4.2.0",
+    "@babylonjs/materials": "4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panuchka/babylonjs-typescript-nullengine-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panuchka/babylonjs-typescript-nullengine-example/issues"
+  },
+  "homepage": "https://github.com/panuchka/babylonjs-typescript-nullengine-example#readme"
+}
