@@ -5,17 +5,14 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "ts-node-dev src/index.ts"
+    "start": "node --experimental-specifier-resolution=node dist/index.js"
   },
   "dependencies": {
-    "ts-node": "^8.10.2",
-    "ts-node-dev": "^1.0.0",
-    "tslib": "^2.0.3",
     "typescript": "^3.9.6",
-    "@babylonjs/core": "4.2.0",
-    "@babylonjs/materials": "4.2.0"
+    "@babylonjs/core": "5.0.0-alpha.3",
+    "@babylonjs/materials": "5.0.0-alpha.3"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/panuchka/babylonjs-typescript-nullengine-example.git"
